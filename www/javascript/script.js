@@ -8,6 +8,115 @@ class WorldCities extends AbstractApp {
     init(dataSource) {
         // Codez cette méthode pour traiter le fichier chargé et initialiser la classe.
         super.init(dataSource);
+
+        {
+    "towns":[
+        {
+            "name": "Pointe-Ã -Pitre",
+            "link": "https://fr.wikipedia.org/wiki/Pointe-Ã -Pitre",
+            "country": "France",
+            "region": "Guadeloupe",
+            "state": "",
+            "major": "Harry Durimel",
+            "inhabitants": 15181,
+            "images": [
+                {
+                    "url": "1920px-Pointe-aÌ€-Pitre.jpeg",
+                    "caption": "Vu de Pointe-Ã -Pitre depuis le large."
+                },
+                {
+                    "url": "1440px-Place_de_la_Victoire_de_Pointe-Ã -Pitre_2.jpeg",
+                    "caption": "La place de la victoire."
+                }
+            ],
+            "description": "<p><b>Pointe-Ã -Pitre</b> est une commune franÃ§aise situÃ©e dans le dÃ©partement de la Guadeloupe. HabitÃ©e en 2014 par 16 261 personnes, la commune est, avec celle voisine des Abymes, au centre d'une vaste aire urbaine de 314 647 habitants, soit la <abbr class=\"abbr\">32<sup>e</sup></abbr> de France.</p>"
+        },
+        {
+            "name": "Berlin",
+            "link": "https://fr.wikipedia.org/wiki/Berlin",
+            "country": "Allemagne",
+            "region": "Land Berlin",
+            "state": "",
+            "major": "Franziska Giffey",
+            "inhabitants": 3748148,
+            "images": [
+                {
+                    "url": "1920px-Nr_2_Berlin_Panorama_von_der_SiegessaÌˆule_2021.jpg",
+                    "caption": "Vue aÃ©rienne de Berlin."
+                },
+                {
+                    "url": "1620px-Berlin_-_Aerial_view_-_2016.jpg",
+                    "caption": "Vue aÃ©rienne."
+                },
+                {
+                    "url": "1669px-Schlachtensee_in_Berlin2019.jpg",
+                    "caption": "Schlachtensee."
+                }
+            ],
+            "description": "<p><b>Berlin</b> est la capitale et la plus grande ville d'Allemagne. Institutionnellement, câ€™est une ville-Ã‰tat nommÃ©e <i>Land de Berlin</i>.</p>"
+        },
+        {
+            "name": "Mexico",
+            "link": "https://fr.wikipedia.org/wiki/Mexico",
+            "country": "Mexique",
+            "region": "Mexico",
+            "state": "",
+            "major": "Claudia Sheinbaum",
+            "inhabitants": 9209944,
+            "images": [
+                {
+                    "url": "1080px-Montaje.Ciudad_de_MeÌ�xico.jpg",
+                    "caption": "De haut en bas: Ã�ngel de la Independencia, CathÃ©drale mÃ©tropolitaine de Mexico, Paseo de la Reforma, Torre Latinoamericana, Palais national, Parque La Mexicana Ã  Santa Fe, Monument Ã  la RÃ©volution, ChÃ¢teau de Chapultepec, Palais des beaux-arts de Mexico et Paseo de la Reforma."
+                }
+            ],
+            "description": "<p><b>Mexico</b> est une entitÃ© fÃ©dÃ©rative et la capitale du Mexique.</p>"
+        },
+        {
+            "name": "New York City",
+            "link": "https://fr.wikipedia.org/wiki/New_York",
+            "country": "USA",
+            "region": "",
+            "state": "New York",
+            "major": "Eric Adams",
+            "inhabitants": 8804190,
+            "images": [
+                {
+                    "url": "1920px-Lower_Manhattan_skyline_-_June_2017.jpg",
+                    "caption": "Lower Manhattan skyline as seen from Governors Island in June 2017"
+                },
+                {
+                    "url": "821px-NYC_Montage_2014_4_-_Jleon.jpg",
+                    "caption": "Montage de New York City"
+                }
+            ],
+            "description": "<p><b>New York</b> most commonly refers to:</p><ul><li>New York City, the most populous city in the United States, located in the state of New York</li>\n<li>New York (state), a state in the northeastern United States</li></ul>"
+        },
+        {
+            "name": "Paris",
+            "link": "https://fr.wikipedia.org/wiki/Paris",
+            "country": "France",
+            "region": "Ile-de-France",
+            "state": "",
+            "major": "Anne Hidalgo",
+            "inhabitants": 2165423,
+            "images": [
+                {
+                    "url": "La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques,_Paris_aouÌ‚t_2014_(2).jpeg",
+                    "caption": "Vue de la Tour Eiffel."
+                },
+                {
+                    "url": "1920px-Pont_des_Arts,_Paris.jpg",
+                    "caption": "Le pont des Arts de Paris."
+                },
+                {
+                    "url": "1620px-Arcdetriomphe_2.jpg",
+                    "caption": "L'Arc de Triomphe."
+                }
+            ],
+            "description": "<p><b>Paris</b> est la capitale de la France. DivisÃ©e en vingt arrondissements, elle est le chef-lieu de la rÃ©gion ÃŽle-de-France et le siÃ¨ge de la mÃ©tropole du Grand Paris.</p>"
+        } 
+    ]
+}
     }
 }
 
