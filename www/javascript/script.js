@@ -4,6 +4,7 @@ class WorldCities extends AbstractApp {
 
     }
 
+
     init(dataSource) {
         // Codez cette méthode pour traiter le fichier chargé et initialiser la classe.
         super.init(dataSource);
@@ -74,6 +75,8 @@ class IndexerEvent extends CustomEvent {
 class Indexer extends AbstractUIComponent {
     constructor(UIView, total, mode = indexerMode.NONE) {
         super(UIView);
+        this.total = total;
+        this.mode = mode;
 
         // Codez ici les propriétés définies dans le diagramme de classes.
         this.init();
@@ -100,6 +103,7 @@ class Indexer extends AbstractUIComponent {
 
     init() {
         // Appelez ici les méthodes d'initialisation du composant décrites dans le diagrammes de classe.
+        initButtons()
         super.init();
     }
 
@@ -111,6 +115,12 @@ class Indexer extends AbstractUIComponent {
 
     checkIndex() {
         // Codez cette méthode. Adaptation en classe du TP Citation.
+        if(index == 0){
+            disableButton(NEXT, false);
+            disableButton(PREVIOUS);
+        }else if(index == ){
+
+        }
     }
 
     setNumbers() {
@@ -167,6 +177,8 @@ class City {
         this.state = dataSource.state;
         this.link = dataSource.link;
     }
+
+    
 }
 
 // Fonction de chargement du fichier externe datas.json. A NE PAS TOUCHER.
